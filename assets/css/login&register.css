@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('path/to/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8b0ee52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #e17ae5c4;
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0.2, 0.3);
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0.2, 0.3);
+}
+
+.submit-button {
+    background-color: #e8b0ee;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 800;
+    box-shadow: 0 2px 8px rgba(0, 0, 0.2, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #e17ae5c4;
+    transform: translateY(10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.container .link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.container .link a {
+    color: #007bfff7;
+    text-decoration: none;
+}
+
+.container .link a:hover {
+    text-decoration: underline;
+}
